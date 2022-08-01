@@ -1,14 +1,13 @@
-<!--<template>-->
-<!--  <div class="about">-->
-<!--    <h1>This is an about page</h1>-->
-<!--  </div>-->
-<!--</template>-->
+<template>
+  <div class="cities">
+  </div>
+</template>
 
-<!--<script>-->
-<!--import CitiesList from "@/components/CitiesList";-->
+<script>
+import CitiesList from "@/components/CitiesList";
 
-<!--export default {-->
-<!--  components :-->
-<!--    CitiesList-->
-<!--}-->
-<!--</script>-->
+export default {
+  components :
+    CitiesList
+}
+</script>

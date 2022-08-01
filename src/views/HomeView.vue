@@ -1,14 +1,14 @@
-<!--<template>-->
-<!--  <div class="home">-->
-<!--    <img alt="Vue logo" src="../assets/logo.png">-->
-<!--  </div>-->
-<!--</template>-->
+<template>
+  <div class="home">
+  <HomePage/>
+  </div>
+</template>
 
+<script>
+import HomePage from '@/components/Home'
 
-<!--<script>-->
-<!--import HomePage from '@components/Home'-->
+export default {
+  components : HomePage
+}
+</script>
 
-<!--export default {-->
-<!--  components : HomePage-->
-<!--}-->
-<!--</script>-->
